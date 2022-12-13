@@ -1,0 +1,16 @@
+
+
+.content{
+    padding-top: 150px;
+    padding-bottom: 112px;
+    width: 980px;
+    margin: 20px auto;
+}
+
+.left-content {
+    display: inline-block;
+    vertical-align: top;
+    width:  580px;
+    padding: 0 32px 0 0;
+    box-sizing: border-box;
+}
