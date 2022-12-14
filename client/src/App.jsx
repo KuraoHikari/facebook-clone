@@ -1,16 +1,16 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-
-import './App.css'
-import Auth from './components/Auth/Auth';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Auth, Home } from './page';
+import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" exaxt element={<Auth/>} />
+        <Route path="/login" exaxt element={<Auth />} />
+        <Route path="/home" exaxt element={<Home />} />
       </Routes>
-  </BrowserRouter>
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
